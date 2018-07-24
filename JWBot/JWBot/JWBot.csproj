@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cycle.cs" />
+    <Compile Include="Functions\Battle.cs" />
     <Compile Include="Functions\Clan.cs" />
     <Compile Include="Functions\DailyRewards.cs" />
     <Compile Include="Form1.cs">

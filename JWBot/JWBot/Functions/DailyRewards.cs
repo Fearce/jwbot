@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace JWBot
@@ -32,9 +33,11 @@ namespace JWBot
                     if (location.Width != 0 && location.X > 10 && location.Y > 10)
                     {
                         Form1.LogMessage = "Rewards received, escaping.";
-                        HelperFunctions.LeftMouseClick(1750,930);
+                        HelperFunctions.LeftMouseClick(Cycle.EscapeCoords.X, Cycle.EscapeCoords.Y);
 
                     }
+
+
                 }); 
         }
 
@@ -140,7 +143,8 @@ namespace JWBot
                         if (rewardFound == false)
                         {
                             Form1.LogMessage = "Seems like reward is already taken, escaping!";
-                            HelperFunctions.LeftMouseClick(1750, 930);
+                            HelperFunctions.LeftMouseClick(Cycle.EscapeCoords.X, Cycle.EscapeCoords.Y);
+                            Thread.Sleep(1000);
                         }
 
                     }
