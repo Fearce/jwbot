@@ -12,6 +12,7 @@ namespace JWBot
 {
     static class HelperFunctions
     {
+
         [DllImport("user32.dll")]
         static extern bool GetCursorPos(ref Point lpPoint);
 

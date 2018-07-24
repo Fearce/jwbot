@@ -9,6 +9,17 @@ namespace JWBot
 {
     static class DailyRewards
     {
+        public static async Task CheckDailyRewards()
+        {
+            await Task.Run(
+                () =>
+                {
+                    DailyRewardsCheck();
+                    RewardsReceived();
+
+                });
+        }
+
         //TODO: Fix day 1, 2, 4, 5, 6, 7
         public static async Task RewardsReceived()
         {
