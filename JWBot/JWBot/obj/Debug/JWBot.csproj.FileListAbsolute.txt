@@ -1,0 +1,10 @@
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\bin\Debug\JWBot.exe.config
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\bin\Debug\JWBot.exe
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\bin\Debug\JWBot.pdb
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\obj\Debug\JWBot.csprojAssemblyReference.cache
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\obj\Debug\JWBot.Form1.resources
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\obj\Debug\JWBot.Properties.Resources.resources
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\obj\Debug\JWBot.csproj.GenerateResource.cache
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\obj\Debug\JWBot.csproj.CoreCompileInputs.cache
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\obj\Debug\JWBot.exe
+C:\Users\theke\Desktop\jwbot\JWBot\JWBot\obj\Debug\JWBot.pdb
