@@ -12,6 +12,21 @@ namespace JWBot
 {
     static class HelperFunctions
     {
+        public static async Task ClickOnImage(string imgPath)
+        {
+            await Task.Run(
+                () =>
+                {
+                    var ss = HelperFunctions.CaptureScreen();
+                    var location = HelperFunctions.searchBitmap((Bitmap)Bitmap.FromFile(imgPath), ss, 0);
+
+
+                    if (location.Width != 0 && location.X > 10 && location.Y > 10)
+                    {
+                        HelperFunctions.LeftMouseClick(location.X, location.Y);
+                    }
+                });
+        }
 
         [DllImport("user32.dll")]
         static extern bool GetCursorPos(ref Point lpPoint);
